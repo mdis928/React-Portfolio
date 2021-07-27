@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Portfolio() {
   return (
-    <main>
+    <main className="portfolio">
       <h1>Portfolio</h1>
       <div>
         <h2>Projects</h2>

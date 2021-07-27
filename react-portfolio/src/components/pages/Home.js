@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Home() {
   return (
-    <div>
+    <div className="page">
       <h1>Greetings!</h1>
       <p>
        Welcome to my React Portfolio. Feel free to click on the links above to learn more about background, work experience, and interests. If you want to contact me or any inquiries,

@@ -1,10 +1,11 @@
 import React from 'react';
+// import './style.css';
 
 export default function About() {
   return (
-    <div>
+    <div className="page">
       <h2>About Me!</h2>
-      <img src="Mike.jpg" style={{width: '50%', height: '50%', maxWidth: '500px'}}></img>
+      <img src="./images/Mike.jpg" style={{width: '50%', height: '50%', maxWidth: '500px'}}></img>
       <p>
       Hello, my name is Michael DiSanto and my goal to combine my finance and accounting skills with my computer science skills related fields. I hope I have to work on projects and work obessively over them!  
       </p>
