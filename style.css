@@ -1,0 +1,41 @@
+/* index.html */
+body {
+    background-image: url(./black\ minimalist.jpg);
+    /* background-color: aqua; */
+    }
+
+footer {
+    color: white;
+}
+/* end of index.html */
+
+
+
+/* About */
+.page h2 {
+    color: white;
+}
+
+.page p {
+    color: white;
+}
+
+.page h1 {
+    color: white;
+}
+
+.portfolio h1 {
+    color: white;
+}
+
+.portfolio h2 {
+    color: white;
+}
+
+.portfolio h4 {
+    color: white;
+}
+
+.contact {
+    color: white
+}
