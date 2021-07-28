@@ -11,31 +11,66 @@ footer {
 
 
 
-/* About */
+.nav-item-class1 {
+    margin-left: 30px;
+
+}
+
+.nav-item-class2 {
+    margin-left: 65px;
+}
+
+.nav-item-class3 {
+    margin-left: 120px;
+}
+
+.nav-item-class4 {
+    margin-left: 175px;
+}
+
+a {
+    color: white;
+    font-size: 20px;
+}
+
+
+
+
+/* pages */
 .page h2 {
     color: white;
+    font-size: 20px;
 }
 
 .page p {
     color: white;
+    font-size: 20px;
 }
 
 .page h1 {
     color: white;
+    font-size: 20px;
 }
 
 .portfolio h1 {
     color: white;
+    
 }
 
 .portfolio h2 {
     color: white;
+    
 }
 
 .portfolio h4 {
     color: white;
+    font-size: 20px;
 }
 
 .contact {
     color: white
+}
+
+.footer {
+    padding-top: 100%;
 }

@@ -1,12 +1,12 @@
 import React from 'react';
-
+// import "../../src/components/styles/style.css"
 // Here we are using object destructuring assignment to pluck off our variables from the props object
 // We assign them to their own variable names
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav nav-tabs">
-      <li className="nav-item">
-        <a
+    <ul className="row">
+      <li className="nav-color">
+        <a className=""
           href="#home"
           onClick={() => handlePageChange('Home')}
           // This is a conditional (ternary) operator that checks to see if the current page is "Home"
@@ -16,7 +16,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           Home
         </a>
       </li>
-      <li className="nav-item">
+      <li className="nav-item-class1">
         <a
           href="#about"
           onClick={() => handlePageChange('About')}
@@ -26,7 +26,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           About
         </a>
       </li>
-      <li className="nav-item">
+      <li className="nav-item-class2">
         <a
           href="#portfolio"
           onClick={() => handlePageChange('Portfolio')}
@@ -36,7 +36,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           Portfolio
         </a>
       </li>
-      <li className="nav-item">
+      <li className="nav-item-class3">
         <a
           href="./M.DiSanto_Resume.pdf"
           onClick={() => handlePageChange('Resume')}
@@ -46,7 +46,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           Resume
         </a>
       </li>
-      <li className="nav-item">
+      <li className="nav-item-class4">
         <a
           href="#contact"
           onClick={() => handlePageChange('Contact')}
@@ -57,6 +57,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         </a>
       </li>
     </ul>
+    
   );
 }
 

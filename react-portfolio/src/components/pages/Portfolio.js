@@ -11,7 +11,7 @@ export default function Portfolio() {
             <ul>
               <li><a href="https://hidden-waters-49471.herokuapp.com/">Heroku Page</a></li>
               <li><a href="https://github.com/alexbradshaw/Wobal">Repository</a></li>
-              <img href="https://hidden-waters-49471.herokuapp.com/" src="Wobal2.PNG" style={{width: '95%', height: '95%', maxWidth: '800px'}}></img>
+              <img href="https://hidden-waters-49471.herokuapp.com/" src="Wobal2.PNG" alt="" style={{width: '95%', height: '95%', maxWidth: '800px'}}></img>
             </ul>
         </div>
       </div>

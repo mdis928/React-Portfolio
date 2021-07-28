@@ -4,8 +4,7 @@ export default function Contact() {
   return (
     <div className="contact">
       <h1>Contact</h1>
-      <h3>disantoIndustries@gmail.com</h3>
-      <h3>610-215-2721</h3>
+      <h3>For further inquiries, please click on the link to go to my Linkedin. Please send me message</h3>
     </div>
   );
 }
